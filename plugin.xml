@@ -61,7 +61,7 @@
 
     <config-file target="AndroidManifest.xml" parent="/*/application/activity">
       <intent-filter>
-        <data android:scheme="$URL_SCHEME"/>
+        <data android:scheme="$URL_SCHEME" android:host="$URL_HOST"/>
         <action android:name="android.intent.action.VIEW" />
         <category android:name="android.intent.category.DEFAULT" />
         <category android:name="android.intent.category.BROWSABLE" />
